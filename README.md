@@ -1,4 +1,14 @@
 # Vienna Wireless Society Software Defined Receiver (VWS-SDR)
+Compact breadboard module version of the VWS SDR frontend. 
+
+Changes compared to the source design:
+- Removed clock generator and controller modules. This module implements only downconversion and filtering.
+- Added pin header for installation on a breadboard.
+- Added 3.3V regulator to provide voltage used by the multiplexer chip. The voltage is also available on the pin header, and can be used to power the clock generator module.
+- Replaced electrolytic capacitors with SMD versions.
+- All remaining passives use 0603 footprints.
+
+# Original description
 
 This repository contains the files for a 2025 project by the [Vienna Wireless Society's](https://viennawireless.net/wp/) Makers Group. This project aims to build the RF front end of a software defined receiver covering the HF bands. The goals of the project are: 
 
