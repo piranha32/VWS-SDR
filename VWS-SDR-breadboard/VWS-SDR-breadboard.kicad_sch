@@ -5,11 +5,12 @@
 	(uuid "b91e133f-7746-479e-881c-4dcaa2faa84c")
 	(paper "A4")
 	(title_block
-		(title "VWS HF SDR")
-		(date "2025-01-06")
-		(rev "V3")
+		(title "VWS HF SDR frontend breadboard module")
+		(date "2025-01-11")
+		(rev "V1.0")
 		(comment 1 "Heavily derived from T41 V12 RF board")
-		(comment 2 "Designed by Oliver KI3P")
+		(comment 2 "Original design by Oliver KI3P")
+		(comment 3 "Breadboard module version by Jacek KW4EP")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:MC33078"
@@ -5534,7 +5535,7 @@
 	)
 	(text "T41 V12 schematics:\nhttps://github.com/DRWJSCHMIDT/T41/tree/main/T41_V012_Files_01-15-24/T41_V012_Schematic_PDFs"
 		(exclude_from_sim no)
-		(at 178.054 169.164 0)
+		(at 175.768 150.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
